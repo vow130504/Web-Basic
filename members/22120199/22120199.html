@@ -3,138 +3,91 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <title>Nguyễn Minh Thiện</title>
+    <title>Trần Lượng</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="22120199.css">
 </head>
-    <style>
-        *{
-            margin: 0;
-            padding: 0;
-            font-family: Arial, Helvetica, sans-serif;
-            box-sizing: border-box;
-        }
-        body{
-            display: flex;
-            min-height: 10vh;
-            background:white;       
-            flex-direction: column; /* dùng để cho các phần tử con xếp chồng lên nhau */
-        }
-        #search-box{
-            background-color:black;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            width: 100%;
-            height: 80px;
-            justify-content: center;
-            align-items: center;
-        }
-        #header1{
-            display: flex;
-            min-height: 1vh;
-            background: black;
-            width: 100%;
-            height: 80px; 
-        }
-        #logokhtn{
-            width: 90px;
-            height: 75px;
-            padding-top:5px;
-            padding-left: 5px;
-        }
-        .menu{
-            width: 40%;
-            height: 570px;
-            background: #b0b0aa;
-            padding: 20px;
-            line-height: 1.5;
-        }
-        #avt1{
-            width: 100%;
-            height: auto;
-        }
-        #body-content{
-            display: flex;
-            min-height: 10vh;
-            background:white;                   
-        }
-        #search-box{
-            background-color:black;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            width: 100%;
-            height: 80px;
-            justify-content: center;
-            align-items: center;
-        }
-        
-        #search-box #search-text{            
-            border: none;
-            outline: 0px; 
-            border-radius: 30%;
-            background:white;
-            padding: 10px 35px;
-            font-size: 20px;
-            width: 0px;   
-            cursor: pointer;
-        }
-
-
-        .content{
-            width: 80%;
-            height: 100%;
-            background: #f2f2f2;
-            padding-left: 0px;
-            line-height: 1.5;
-        }
-        
-    </style>
-    
-    
-    <div id = "header1">
-        <img id = "logokhtn" src="../../images/logowhitebalck.png" alt="logokhtn">
-        <form action="" id="search-box">
-            <h1 style="color: white;">PROFILE OF MEMBER</h1>
-        </form>    
-        <button id = "search-btn">
-            <a href="../../default.html" target="_self">
-                <i class="fa fa-home">Trang chủ 
-                </i>
-            </a>
-        </button>
-            
-    </div>
-    
-    
-    <div id = "body-content">
-        <div class ="menu">
-            <img id ="avt1" src="../thien1/images/thien1.jpg" alt="avt">
-        </div>
-        <div class="content" style="line-height: 1.5;">
-                <div style="text-align: center;">
-                    <h1 style="background-color: gray;height: 80px;padding-top: 20px;">Nguyễn Minh Thiện</h1>
-                    <br>
-                    <h2 style="padding-bottom: 10px;">Thông tin cá nhân</h2>
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="profile">
+                <div class="profile-img">
+                    <img src="images/Joey.webp" alt="Profile Image">
                 </div>
-            <box >
-                <ul style="list-style-type: none; text-align: center;font-size: 20px;">
-                    <li><b>Giới tính: </b>Nam </li>
-                    <li><b>Ngày sinh:</b> xx/xx/xxxx</li>
-                    <li><b>Email:</b> 22120344@student.hcmus.edu.vn</li>
-                    <li><b>Điện thoại:</b> 0949455062</li>
-                </ul>
-            </box>
-        </div>
+                <div class="header-info">
+                    <h1>Trần Lượng</h1>
+                    <ul>
+                        <li>Date of Birth: 18/03/2004</li>
+                        <li>MSSV: 22120199</li>
+                        <li>Class: 22CTT4</li>
+                        <li>Email: luongtran1832004@gmail.com</li>
+                    </ul>
+                </div>
+                <div class="bio-info">
+                    <h2>Biographical Information</h2>
+                    <a href="https://www.facebook.com/183luong" class="social-link"><i class="fab fa-facebook"></i> Facebook</a>
+                    <a href="https://www.instagram.com/" class="social-link"><i class="fab fa-instagram"></i> Instagram</a>
+                    <a href="#" class="phone-link"><i class="fab fa-phone"></i> Phone number: 0965 389 527</a>
+                    <p>Address: 227 Nguyen Van Cu street, Ward 4, District 5, Ho Chi Minh City - University of Science, VNUHCM</p>
+                </div>
+            </div>
+        </header>
 
-            
-    </div>
-    <div style="background-color: bisque; width: auto; padding: 12px; ;">
-        <span>Copyright &copy; 2024-2025 by 22120344@student.hcmus.edu.vn </span> 
+        <div class="content-wrapper">
+            <div class="toc">
+                <h2>Content</h2>
+                <ul>
+                    <li><a href="#introduce">1. Introduce</a></li>
+                    <li><a href="#appearance">2. Appearance</a></li>
+                    <li><a href="#abilities">3. Abilities and Powers</a></li>
+                    <li><a href="#weaknesses">4. Weaknesses</a></li>
+                </ul>
+            </div>
+
+            <main class="content">
+                <h2 id="introduce">Introduce</h2>
+                <hr>
+                <p>Hi, I'm Trần Lượng, a passionate student currently working on a web development project. 
+                    My main focus is on creating dynamic websites using technologies like HTML, CSS, JavaScript for the frontend, and Node.js with Express for the backend. 
+                    I’m also experienced with Microsoft SQL Server for database management.</p>
+
+                <h2 id="appearance">Appearance</h2>
+                <hr>
+                <p>On the side, I have experience working in the service industry, 
+                    but I'm transitioning out of it to focus more on my technical career and studies. 
+                    I enjoy learning new skills, exploring new tools like GitHub for version control, 
+                    and refining my coding practices using VSCode.
+                    
+                    When I'm not coding, 
+                    I love engaging in fun activities like organizing minigames and exploring creative projects!
+
+                    Feel free to add or adjust any details to better 
+                    reflect who you are! You can also share more about 
+                    your hobbies or other areas of interest, 
+                    and I can refine the intro further.
+                </p>
+
+                <h2 id="abilities">Abilities and Powers</h2>
+                <hr>
+                <p> I’m quick to learn new technologies, 
+                    adaptive in problem-solving, and always eager to improve. 
+                    I'm currently honing my skills through a web programming project, 
+                    which helps me apply theoretical knowledge into real-world applications.
+                    When I'm not coding, I love exploring creative outlets 
+                    like organizing fun mini-games and working on team-based projects. 
+                    I’m driven by curiosity and a passion for creating innovative solutions!
+                </p>
+
+                <h2 id="weaknesses">Weaknesses</h2>
+                <hr>
+                <p>While I have a solid foundation in web development, there are areas where I'm actively working to improve:
+
+                    Time Management: Balancing multiple responsibilities, like school, work, and personal projects, can sometimes be challenging. I'm learning to prioritize tasks better and use tools like Trello and Google Calendar to stay organized.
+                    Depth in Backend Development: Although I'm comfortable with Node.js and Express, I know there's still more to learn, especially when it comes to optimizing performance and security. I’m dedicating time to mastering these aspects.
+                    Perfectionism: I tend to focus too much on small details, which can slow down my progress at times. I'm learning to find a balance between producing high-quality work and completing tasks efficiently.
+                    Public Speaking: Presenting my ideas or projects in front of others can be intimidating. However, I’m practicing more by engaging in small group discussions and seeking opportunities to improve my communication skills.</p>
+            </main>
+        </div>
     </div>
 </body>
-</html> 
-
-
-
-
+</html>

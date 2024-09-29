@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ebe7ed;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f3f3f3;
+}
+
+.header .profile {
+    display: inline-flex;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.profile-img img {
+    display: flex;
+    width:  250px;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.header-info {
+    min-inline-size: 5em;
+    padding-left: 5%;
+}
+.header-info h1 {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+}
+
+.header-info ul {
+    list-style: none;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+.bio-info {
+    margin-left: auto;
+    width: 45%;
+    background-color: #dbe7f3;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+    display: inline-block;  
+}
+
+.bio-info a{
+    color: #333;
+    text-decoration: none;
+    display: inline-block;
+    padding-inline: 5%;
+    padding-bottom: 10px;
+}
+
+.bio-info h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.bio-info p {
+    margin-bottom: 8px;
+}
+
+.social-link {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+    text-decoration: none;
+}
+
+.social-link i {
+    margin-right: 5px;
+}
+
+.content-wrapper {
+    display: flex;
+    margin-top: 30px;
+}
+
+.toc {
+    background-color: #dbe1f1;
+    padding: 15px;
+    width: 20%;
+    height: 100%;
+    margin-right: 20px;
+    border-radius: 8px;
+    font-size:larger;
+}
+
+.toc h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+.toc ul {
+    list-style: none;
+}
+
+.toc ul li {
+    margin-bottom: 10px;
+}
+
+.toc ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    flex: 1;
+}
+
+.content h2 {
+    margin-bottom: 10px;
+    font-size: 1.6rem;
+}
+
+.content hr {
+    margin-bottom: 15px;
+}
+
+.content p {
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .content-wrapper {
+        flex-direction: column;
+    }
+
+    .toc {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .content {
+        width: 100%;
+    }
+}
