@@ -9,10 +9,29 @@ body {
     background-color: #ebe7ed;
 }
 
+.home {
+    /* Lên đầu trang và dừng */
+    position: static;
+    top: 0px;
+
+    width: 100%;
+    display: block;
+    padding: 10px;
+    background-color: #000000;
+    color: white;
+    text-align: center;
+}
+
+.home a {
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
 .container {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 20px;
+    padding: 20px 10px 20px 10px;
     background-color: #f3f3f3;
 }
 
@@ -92,13 +111,17 @@ body {
 }
 
 .toc {
-    background-color: #dbe1f1;
+    background-color: #dbe7f3;
     padding: 15px;
-    width: 20%;
+    width: 15%;
     height: 100%;
-    margin-right: 20px;
+    margin-right: 10px;
     border-radius: 8px;
     font-size:larger;
+
+    /* Lên đầu trang và dừng */
+    position: sticky;
+    top: 57px;
 }
 
 .toc h2 {
