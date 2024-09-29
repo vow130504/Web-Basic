@@ -121,7 +121,7 @@ body {
 
     /* Lên đầu trang và dừng */
     position: sticky;
-    top: 57px;
+    top: 10px;
 }
 
 .toc h2 {
