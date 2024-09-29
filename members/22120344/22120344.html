@@ -3,138 +3,100 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="22120344.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <title>Vũ Ngọc Ánh</title>
+    <title>Minh Thiện</title>
 </head>
-    <style>
-        *{
-            margin: 0;
-            padding: 0;
-            font-family: Arial, Helvetica, sans-serif;
-            box-sizing: border-box;
-        }
-        body{
-            display: flex;
-            min-height: 10vh;
-            background:white;       
-            flex-direction: column; /* dùng để cho các phần tử con xếp chồng lên nhau */
-        }
-        #search-box{
-            background-color:black;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            width: 100%;
-            height: 80px;
-            justify-content: center;
-            align-items: center;
-        }
-        #header1{
-            display: flex;
-            min-height: 1vh;
-            background: black;
-            width: 100%;
-            height: 80px; 
-        }
-        #logokhtn{
-            width: 90px;
-            height: 75px;
-            padding-top:5px;
-            padding-left: 5px;
-        }
-        .menu{
-            width: 40%;
-            height: 570px;
-            background: #b0b0aa;
-            padding: 20px;
-            line-height: 1.5;
-        }
-        #avt1{
-            width: 100%;
-            height: auto;
-        }
-        #body-content{
-            display: flex;
-            min-height: 10vh;
-            background:white;                   
-        }
-        #search-box{
-            background-color:black;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            width: 100%;
-            height: 80px;
-            justify-content: center;
-            align-items: center;
-        }
-        
-        #search-box #search-text{            
-            border: none;
-            outline: 0px; 
-            border-radius: 30%;
-            background:white;
-            padding: 10px 35px;
-            font-size: 20px;
-            width: 0px;   
-            cursor: pointer;
-        }
-
-
-        .content{
-            width: 80%;
-            height: 100%;
-            background: #f2f2f2;
-            padding-left: 0px;
-            line-height: 1.5;
-        }
-        
-    </style>
-    
-    
-    <div id = "header1">
-        <img id = "logokhtn" src="../../images/logowhitebalck.png" alt="logokhtn">
-        <form action="" id="search-box">
-            <h1 style="color: white;">PROFILE OF MEMBER</h1>
-        </form>    
-        <button id = "search-btn">
+<body>
+    <div class="navbar">
+        <button id = "navbar__search-btn">
             <a href="../../default.html" target="_self">
-                <i class="fa fa-home">Trang chủ 
-                </i>
+                <i class="fa fa-home"></i>
+                Trang chủ 
             </a>
         </button>
-            
     </div>
-    
-    
-    <div id = "body-content">
-        <div class ="menu">
-            <img id ="avt1" src="../thien2/images/thien2.jpg" alt="avt">
+    <div class="header">
+        <div class="header__info">
+            <h1 class="header__info-title">Nguyễn Minh Thiện</h1>
+            <ul class="header__info-subtitle">
+                <li>Date of Birth: 13/05/2004</li>
+                <li>MSSV: 22120344</li>
+                <li>Class: 22CTT5</li>
+                <li>Email: 22120344@student.hcmus.edu.vn</li>
+            </ul>
         </div>
-        <div class="content" style="line-height: 1.5;">
-                <div style="text-align: center;">
-                    <h1 style="background-color: gray;height: 80px;padding-top: 20px;">Vũ Ngọc Ánh</h1>
-                    <br>
-                    <h2 style="padding-bottom: 10px;">Thông tin cá nhân</h2>
+        <div class="header__avatar">
+            <div class="header__avater-img-container">
+                <img src="./images/Dee_Dee.webp" alt="DeeDee" class="header__avatar-img">
+            </div>
+            <div class="header__box">
+                <h1 class="header__box-title">Biographical information</h1>
+                <div class="header__box-info">
+                    <h3>Contact: </h3>
+                    <a href="https://www.facebook.com/profile.php?id=100048599460547" class="avatar-info__link">
+                        <i class="fa-brands fa-facebook"></i>  
+                        Facebook
+                    </a>
+                    <a href="https://www.instagram.com/1v3o0w5/?fbclid=IwY2xjawFl6-dleHRuA2FlbQIxMAABHW91rhCYbpmstFXsWQRJogyh3GoBsqEUhZGlPEhFxFDnEKWMYb8sVsqphg_aem_YrN0HDVxoXS-jBYJIqOTKg" class="avatar-info__link">
+                        <i class="fa-brands fa-instagram"></i> 
+                        Instagram
+                    </a>
+                    <h3>Phone number: </h3>
+                    <p>0949455062</p>
                 </div>
-            <box >
-                <ul style="list-style-type: none; text-align: center;font-size: 20px;">
-                    <li><b>Giới tính: </b>Nữ </li>
-                    <li><b>Ngày sinh:</b> xx/xx/xxxx</li>
-                    <li><b>Email:</b> 22120345@student.hcmus.edu.vn</li>
-                    <li><b>Điện thoại:</b> 09494550xx</li>
-                </ul>
-            </box>
+                <div class="header__box-address">
+                    <h3>Address: </h3>
+                    <p>University of Science</p>
+                </div>
+            </div>
+        </div>  
+    </div>
+    <div class="content">
+        <div class="toc">
+            <h2>Content</h2>
+            <ul>
+                <li><a href="#section1">1	Characteristics</a></li>
+                <li><a href="#section2">2	Appearance</a></li>
+                <li><a href="#section3">3	Abilities and Powers</a></li>
+                <li><a href="#section4">4	Weaknesses</a></li>
+            </ul>
         </div>
+        <div class="content__main">
+            <h2 id="section1">Characteristics</h2><hr>
+            <p>Dee Dee is a cockroach who is always hungry and eats everything. He acts a bit childish and immature. He is also the most sensitive as he is seen crying over food, the loss of his brothers and even his failed attempts to appear in an opera show with Jack in one episode . His appetite sometimes reaches insane levels, often leading to the consumption of larger animals or other things (such as hyenas in one case and the effects of a poisonous mushroom in another). another case is insects.
 
+                <br><br> He even tried to eat elephants, Oggy, Jack and a wild boar. He is usually the bravest of the group as he has even handled larger animals such as penguins for eggs, octopuses for arms, and a herd of elephants so he can eat one of them. - but his efforts are often wasted when he is beaten. Sometimes, Dee Dee gets tired of Joey's controlling antics and will side with Marky when he feels Joey is being unfair or too assertive.</p>
+
+            <h2 id="section2">Appearance</h2><hr>
+            <p>He is a blue-bodied, orange-headed roach with green eyes. He is quite overweight and short but is the strongest, as he can lift the other cockroaches and heavy things easily. Due to his cheerful and fun nature, he often smiles with his mouth open and occasionally he hops while moving around. Rarely, while the other cockroaches laugh at Oggy, he is seen with either a bemused or hungry expression.</p>
+
+            <h2 id="section3">Abilities and Powers</h2><hr>
+            <p>Overall roaches abilities like the other two such as flying and using his long antennas/noses:
+
+                <br><br>Strength (Many examples prove he is the toughest of the roaches strengths);
+                
+                <br><br>Rotten sweat (In Caught in a Trap he melts a lock by squeezing a sock with sweat inside);
+                
+                <br><br>Roar (In Safari so good, his scream scares lions, snakes, and elephants);
+                
+                <br><br>Crime-solving skills (as seen in "Inspector Dee Dee");
             
+                <h2 id="section4">Weaknesses</h2><hr>
+                <p>Size (He’s bulkier than the other cockroaches and it takes more time for him to enter crates);
+                    <br><br>Tom-foolery (It happens occasionally, whether he loses his mind in front of food or he simply moves or acts clumsily. The results involve him screwing up the Cockroaches' plans or getting hurt.);
+                    
+                </p>
+        </div>
     </div>
-    <div style="background-color: bisque; width: auto; padding: 12px; ;">
-        <span>Copyright &copy; 2024-2025 by 22120344@student.hcmus.edu.vn </span> 
+    <div class="footer">
+        <div class="footer__link">
+            <h2 class="footer__link-title">Follow me for more detail: </h2>
+            <a href="https://www.tiktok.com/@xomu_2004" class="footer__link-img">
+                <i class="fa-brands fa-tiktok"></i> 
+            </a>
+        </div>
     </div>
+
 </body>
-</html> 
-
-
-
-
+</html>
