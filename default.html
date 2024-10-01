@@ -2,98 +2,82 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="./default.css">
-    <link href="./images/logowhitebalck.png" rel="icon" type="images/x-icon">
-    <title>Nhóm XYZ</title>
-</head>    
-    <div id="header1">
-        <img id="logokhtn" src="./images/logowhitebalck.png" alt="logokhtn">
-        <form action="" id="search-box">
-            <input type="text" id="search-text" placeholder="Nhập nội dung tìm kiếm...">
-            <button id="search-btn">
-                <i class="fa-solid fa-magnifying-glass">
-                </i>
-            </button>
-        </form>    
-    </div>
+    <link rel="icon" href="./images/logo_mini.png" type="image/x-icon" >
+    <link rel="stylesheet" href="default.css">
     
+    <title>GenZ-Group</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="header">
+            
+            <a href="" class="logo_main">
+                <img class="logo-pic" src="./images/logo_main.png" alt="">
+            </a>   
+            <div class="menu">
+                <div class="item">
+                    <a href="#banner" target="_self">HOME</a>
+                </div>
     
-    <div id="body-content">
-        <div class ="menu">
-            <h2>Mục lục</h2>
-            <ul id="muc-luc-chi-tiet">
-                <li><a href="#picture-group" target="_self">Hình ảnh nhóm XYZ</a></li>
-                <li><a href="#in4-group" target="_self">Thông tin nhóm</a></li>
-                <ol class="ol-list-1">
-                    <li><a href="#group-name" target="_self">Tên nhóm</a></li>
-                    <li><a href="#group-overview" target="_self">Giới thiệu sơ lược về nhóm</a></li>
-                    <li><a href="#mems-list" target="_self">Danh sách thành viên</a></li>
-                </ol>
-                
-            </ul>
+                <div class="item">
+                    <a href="#PICTURE" target="_self">PICTURE</a>
+                </div>
+    
+                <div class="item" >
+                    <a href="#about-us" target="_self">ABOUT US</a>
+                </div>
+            </div>            
         </div>
-        <div class="content">
-            <h2 id="picture-group">HÌNH ẢNH NHÓM XYZ</h2>
-            <br>
-            <img id ="pic-1" src="./images/anhNhom.png" alt="anhNhom" usemap="#imgmap202492993325">
-            <map id="imgmap202492993325" name="imgmap202492993325">
-                <area shape="poly" alt="22120344" title="" coords="81,121,28,178,29,197,44,222,46,252,37,273,44,288,66,303,105,316,178,300,209,282,211,240,207,190,197,164,173,139,133,131,119,129" href="./members/22120344/22120344.html" target="_blank" />
-                <area shape="poly" alt="22120417" title="" coords="280,69,278,103,238,121,245,155,279,175,290,182,339,187,359,179,377,146,377,105,364,96,317,67,279,68,281,69" href="./members/22120417/22120417.html" target="_blank" />
-                <area shape="poly" alt="22120199" title="" coords="479,155,438,200,402,219,417,249,456,261,515,273,547,246,549,212,531,189,497,164" href="./members/22120199/22120199.html" target="_blank"/>
-            </map>
-            <p><b><i>Hình ảnh:</i></b> Hình chụp chung của nhóm</p>
-            <br><br>
-            <hr>
-
-            <h2>THÔNG TIN NHÓM</h2>
-            <div  id="in4-group">               
-                <ol id="o-list">
-
-                    <li id ="group-name">Tên nhóm: 
-                        <p id="para">XYZ</p></li> 
-
-                    <li id ="group-overview">Giới thiệu sơ lược về nhóm:</li>
-                        <p id="para">Nhóm XYZ chúng tôi là một nhóm gồm hai thành viên, hiện là sinh viên năm 3 khóa 2022 tại Đại học Khoa học Tự nhiên - Đại học Quốc gia Thành phố Hồ Chí Minh, với mục tiêu nghiên cứu và phát triển các kỹ năng chuyên sâu trong lĩnh vực công nghệ thông tin.
-                        </p>
-                    <li>Danh sách thành viên:</li>
-                    <table class="table" border="1" width="40%" class="h0x201">
-                        <caption class="h0x202">Danh sách thành viên</caption>
-                        <tr>
-                            <th>STT</th>
-                            <th>Họ và tên</th>
-                            <th>MSSV</th>
-                            <th>Giới tính</th>
-                        </tr>
-                        <tr>
-                            <td>1</td>
-                            <td>Trần Lượng</td>
-                            <td> 22120199</td>
-                            <td> Nam</td>
-                        </tr>
-                        <tr>
-                            <td>2</td>
-                            <td>Nguyễn Minh Thiện</td>
-                            <td> 22120344</td>
-                            <td> Nam</td>
-                        </tr>
-                        <tr>
-                            <td>3</td>
-                            <td>Đỗ Thị Ánh Tuyết</td>
-                            <td> 22120417</td>
-                            <td> Nữ</td>
-                        </tr>
-                    </table>                        
-                </ol>
+        <div id="banner">
+            <div class="box-right">
+                <h3 class="slogan">Explore, create and conquer!</h3>
             </div>
-            <br>
-        </div>       
+        
+        </div>
+        <div class="to-bottom">
+            <a href="#PICTURE">
+                <img src="./images/to_bottom.png" alt="">
+            </a>
+        </div>
+
+        <div class="body-content">     
+        <hr>
+            <h2 id="PICTURE">PICTURE</h2>
+            <div class="body-picture-group">
+                <div class="intro-pic">
+                    <p>Because my group just met in this subject, we will use our favorite cartoon characters to represent.</p>
+                    <p>Click on any face to go to the member page.</p>
+                </div>
+                <div class="pic-group">
+                    <img src="./images/anhNhom.jpg" alt="" usemap="#imgmap2024101125726">
+                    <map id="imgmap2024101125726" name="imgmap2024101125726">
+                        <area shape="poly" alt="" title="" coords="102,188,75,201,41,210,13,226,25,268,34,283,36,309,41,347,70,352,108,361,168,357,202,342,228,310,229,270,218,238,210,208,167,195,135,190,135,190" href="./members/22120344/22120344.html" target="_blank" />
+                        <area shape="poly" alt="" title="" coords="286,124,281,146,247,155,231,171,238,195,284,231,327,235,367,215,386,176,347,136,306,125,298,116" href="./members/22120417/22120417.html" target="_blank" />
+                        <area shape="poly" alt="" title="" coords="499,235,400,267,424,310,455,316,503,323,557,301,560,250" href="./members/22120199/22120199.html" target="_blank" />
+                    </map> 
+                    
+                </div>
+            </div>
+            <hr>
+            <h2 id="about-us">ABOUT US</h2>
+            <div class="body-intro-members">
+                <img class="mem-left" src="./images/luong_199.png" alt="">
+                
+                <img  class="mem-mid" src="./images/thien_344.png" alt="">
+                <img class="mem-left" src="./images/tuyet_417.png" alt="">
+            </div>
+            <div class="text-intro">
+                <p>Our GenZ-Group is a group of two members, currently 3rd year students of the 2022 class at the University of Science - Vietnam National University, Ho Chi Minh City, with the goal of researching and developing specialized skills in the field of information technology.</p>
+            </div>
+            <hr>
+        </div>
+
     </div>
+    
     <div class="footer">
         <span>Copyright &copy; 2024-2025 by 22120199_22120344_22120417</span> 
     </div>
 </body>
-</html> 
-
-
+</html>
